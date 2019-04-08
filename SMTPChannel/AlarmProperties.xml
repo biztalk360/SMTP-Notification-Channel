@@ -1,0 +1,6 @@
+﻿<prop:AlarmProperties xmlns="http://www.biztalk360.com/alarms/notification/basetypes"
+                      xmlns:prop="http://www.biztalk360.com/alarms/notification/properties"
+                      Name="teams-settings"
+                      DisplayName="Teams Settings">
+  <Label Name="slack-token-hint" DefaultValue="Alerts will get triggered to the configured Email Id(s) under this channel" For="slack-token"/>
+</prop:AlarmProperties>

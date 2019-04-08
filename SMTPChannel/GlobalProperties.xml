@@ -1,0 +1,20 @@
+﻿<prop:GlobalProperties xmlns:bsd="http://www.biztalk360.com/alarms/notification/basetypes"
+                       xmlns="http://www.biztalk360.com/alarms/notification/basetypes"
+                       xmlns:prop="http://www.biztalk360.com/alarms/notification/properties">
+  <Section Name="email-settings" DisplayName="Email Configuration">
+    <TextArea Name="Email-To" DisplayName="Email To" IsMandatory="true" Disabled="false" DefaultValue="" Type="email" MaxLength="3000" ValidationPattern="^([\w+-.%]+@[\w-.]+\.[A-Za-z]{2,}(\s*;?\s*)*)+$"/>
+    <Label Name="smtp-token-hint" DefaultValue="Use semicolon seperated Emails Id(s)" For="smtp-token"/>
+    <TextArea Name="C-C" DisplayName="CC" IsMandatory="false" Tooltip="The e-mail is copied to one or more recipients." Disabled="false" DefaultValue="" Value=""  Type="email" ValidationPattern="^([\w+-.%]+@[\w-.]+\.[A-Za-z]{2,}(\s*;?\s*)*)+$"/>
+    <Label Name="smtp-token-hint-highlight" DefaultValue="SMTP Channel uses same the SMTP Connection details configured in the BizTalk360 settings." For="smtp-token"/>
+  </Section>
+  <Section Name="alert-email" DisplayName="Additional Email Configuration">
+    <CheckBox Name="use-Email-To" DisplayName="Use different recipients for Up Alerts and Auto Correct Alerts" IsMandatory="true"  DefaultValue="false" Disabled="false" />
+    <Group Name="Additional-Email-Configuration" DisplayName="Additional Email Configuration (Optional)" DependencyType="Enable" DependencyField="use-Email-To">
+      <TextArea Name="Up-Alert" DisplayName="Up Alert Email" IsMandatory="false" Tooltip="Only Up alerts will be trggerred to the configured Email Id(s)" DefaultValue="" Value="" Type="email" ValidationPattern="^([\w+-.%]+@[\w-.]+\.[A-Za-z]{2,}(\s*;?\s*)*)+$"/>
+      <TextArea Name="AutoCorrect-Alert" DisplayName="Autocorrect Alert Email" IsMandatory="false" Tooltip="Only Autocorrect alerts will be trggerred to the configured Email Id(s)" DefaultValue="" Value="" Type="email" ValidationPattern="^([\w+-.%]+@[\w-.]+\.[A-Za-z]{2,}(\s*;?\s*)*)+$"/>
+    </Group>
+      <Label Name="smtp-token-hint-highlight" DefaultValue="An Up Alert will be triggered when all the configured artifacts are Healthy .An Auto Correct Alert will be triggered when the system tries to rectify the violation to make the BizTalk Environment healthy ." For="smtp-token"/>
+</Section>
+</prop:GlobalProperties>
+
+

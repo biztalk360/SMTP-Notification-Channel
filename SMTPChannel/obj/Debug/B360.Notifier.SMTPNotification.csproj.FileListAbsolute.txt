@@ -1,0 +1,10 @@
+D:\GitHub Repository\SMTP-Notification-Channel\SMTPChannel\bin\Debug\B360.Notifier.SMTP.dll
+D:\GitHub Repository\SMTP-Notification-Channel\SMTPChannel\bin\Debug\B360.Notifier.SMTP.pdb
+D:\GitHub Repository\SMTP-Notification-Channel\SMTPChannel\bin\Debug\B360.Common.EntityObjects.dll
+D:\GitHub Repository\SMTP-Notification-Channel\SMTPChannel\bin\Debug\B360.Notifier.Common.dll
+D:\GitHub Repository\SMTP-Notification-Channel\SMTPChannel\bin\Debug\log4net.dll
+D:\GitHub Repository\SMTP-Notification-Channel\SMTPChannel\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub Repository\SMTP-Notification-Channel\SMTPChannel\obj\Debug\B360.Notifier.SMTPNotification.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\SMTP-Notification-Channel\SMTPChannel\obj\Debug\B360.Notifier.SMTPNotification.csproj.CopyComplete
+D:\GitHub Repository\SMTP-Notification-Channel\SMTPChannel\obj\Debug\B360.Notifier.SMTP.dll
+D:\GitHub Repository\SMTP-Notification-Channel\SMTPChannel\obj\Debug\B360.Notifier.SMTP.pdb
